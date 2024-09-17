@@ -4,7 +4,7 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Benji\\PersonalProject\\": "src/"
+            "WebPage\\PersonalProject\\": "src/"
         }
     },
     "authors": [
@@ -13,5 +13,7 @@
             "email": "benjamincornet62130@gmail.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    }
 }

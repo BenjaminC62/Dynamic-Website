@@ -1,0 +1,17 @@
+{
+    "name": "benji/personal-project",
+    "description": "A project I'm working on with a friend, a full web page in PHP that operates with a database",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Benji\\PersonalProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BenjaminC62",
+            "email": "benjamincornet62130@gmail.com"
+        }
+    ],
+    "require": {}
+}

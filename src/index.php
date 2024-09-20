@@ -1,3 +1,10 @@
+<?php
+
+    require_once './../database/database.php';
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,6 +25,7 @@
 </form>
 
 <?php
+
     if (isset($_POST['formsend'])) {
 
         // Récupération des données du formulaire
@@ -36,6 +44,9 @@
         else {
             echo "Veuillez remplir tous les champs";
         }
+
+        //Envoie des données dans la base de données
+
 }
 ?>
 

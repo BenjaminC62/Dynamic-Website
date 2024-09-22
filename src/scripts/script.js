@@ -6,4 +6,4 @@ window.addEventListener('scroll', () => {
     } else {
         nav.style.top = '-50px';
     }
-}
+});

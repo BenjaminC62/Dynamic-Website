@@ -10,6 +10,7 @@ include '../pages/menuNav.php';
         <input type="text" name="last_name"  placeholder="last_name" required><br>
         <input type="text" name="age"  placeholder="Votre âge" required><br>
         <input type="email" name="email" placeholder="Votre email" required><br>
+        <input type="password" name="mdp" placeholder="Votre mot de passe" required><br>
         <input type="submit" name="formsend">
     </form>
 

@@ -5,6 +5,7 @@
     <title>Site</title>
     <link rel="stylesheet" href="./styles/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./scripts/script.js" defer></script>
 </head>
 <body>
 

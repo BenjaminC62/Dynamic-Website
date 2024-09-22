@@ -1,0 +1,25 @@
+:root{
+}
+
+footer{
+    background-color: #8554dc;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.lign{
+    background-color: #B29BCF;
+    height: 5px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.footer-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

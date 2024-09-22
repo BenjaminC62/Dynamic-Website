@@ -1,4 +1,3 @@
-// database.php
 <?php
 function getDatabaseConnection() {
     $servername = "localhost";

@@ -25,6 +25,22 @@ li{
 }
 
 .logo{
-    width: 10px;
-    height: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.Social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg:hover{
+    cursor: pointer;
+}
+
+svg{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
 }

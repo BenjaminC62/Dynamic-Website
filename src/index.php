@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Site</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
 
@@ -13,7 +14,7 @@
     <input type="text" name="last_name"  placeholder="last_name" required><br>
     <input type="text" name="age"  placeholder="Votre âge" required><br>
     <input type="email" name="email" placeholder="Votre email" required><br>
-    <input type="button" name="formsend">
+    <input type="submit" name="formsend">
 </form>
 
 <?php
@@ -31,8 +32,9 @@
         $email = $_POST['email'];
 
         // Vérification des données
-        if(!empty($speudo) && !empty($age) && !empty($email)) {
-            echo "Votre identifiant est : " . $speudo . "<br>";
+        if(!empty($first_name) && !empty($last_name) && !empty($age) && !empty($email)) {
+            echo "Votre prenom est : " . $first_name . "<br>";
+            echo "Votre nom est : " . $last_name . "<br>";
             echo "Votre âge est : " . $age . "<br>";
             echo "Votre email est : " . $email . "<br>";
         }

@@ -1,13 +1,13 @@
-<nav class="menu-nav">
-    <ul>
-        <li class="btn">
-            <a href="../index.php">Acceuil</a>
-        </li>
-        <li class="btn">
-            <a href="./pages/about.php">A propos</a>
-        </li>
-        <li class="btn">
-            <a href="contact.php">Contact</a>
-        </li>
-    </ul>
+
+<nav>
+    <div class="container">
+        <a href="#">MonSite</a>
+        <div>
+            <a href="../index.php">Accueil</a>
+            <a href="#">À propos</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <a href="./pages/login.php">Login</a>
+        </div>
+    </div>
 </nav>

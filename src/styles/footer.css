@@ -23,3 +23,8 @@ li{
     justify-content: center;
     align-items: center;
 }
+
+.logo{
+    width: 10px;
+    height: 10px;
+}

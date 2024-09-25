@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <title>Site</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./scripts/script.js" defer></script>
 </head>
 <body>
 
 <?php include './pages/menuNav.php'; ?>
-
-
-
 
 <?php
 
@@ -49,6 +47,12 @@ if (isset($_POST['formsend'])) {
     }
 }
 ?>
+
+<span>sqdqsdqsdqsdsqdqsdsqdqsd</span>
+
+
+
+<?php include './pages/footer.php'; ?>
 
 </body>
 </html>

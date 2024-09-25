@@ -49,3 +49,101 @@ form input[type="submit"]:hover {
 .forgot-password:hover {
     text-decoration: underline;
 }
+
+form {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="submit"],
+form input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus {
+    border-color: #8554dc;
+    outline: none;
+    box-shadow: 0 0 5px rgba(133, 84, 220, 0.5);
+}
+
+form input[type="submit"] {
+    background-color: #8554dc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #6b3fb5;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    color: #8554dc;
+    text-decoration: none;
+}
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #8554dc;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.9rem;
+    white-space: normal;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #6b3fb5;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-container p {
+    text-align: center;
+    color: #666;
+}
+
+.form-container input[type="email"],
+.form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container input[type="submit"] {
+    background-color: #8554dc;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #6b3fb5;
+}

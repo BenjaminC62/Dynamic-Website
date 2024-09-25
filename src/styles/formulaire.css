@@ -38,3 +38,14 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
     background-color: #6b3fb5;
 }
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+.forgot-password:hover {
+    text-decoration: underline;
+}

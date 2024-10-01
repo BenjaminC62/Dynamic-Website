@@ -1,3 +1,18 @@
+/* utilities, main variable*/
+:root{
+
+    --mainColor: #FFFFFF; /* White */
+
+}
+
+/* main-page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
